@@ -202,6 +202,7 @@ a {
   -o-border-radius: 16px;
   min-height: 295px;
   padding: 30px;
+  margin-bottom: 10px;
 }
 
 .inter__title {
@@ -212,40 +213,204 @@ a {
   letter-spacing: 0%;
   color: #ffffff;
   margin-bottom: 16px;
+  max-width: 300px;
 }
 .inter__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 120%;
+  letter-spacing: 0%;
 }
 .indiv {
+  width: 100%;
+  min-height: 295px;
+  background-image: url(../assets/images/indiv.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 .indiv__title {
+  font-family: Gilroy;
+  color: #00214a;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  max-width: 250px;
 }
 .indiv__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #00214a;
 }
 .modern {
+  width: 100%;
+  min-height: 295px;
+  background-image: url(../assets/images/modern.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 .modern__title {
+  font-family: Gilroy;
+  color: #00214a;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  max-width: 250px;
 }
 .modern__text {
-}
-.col-3 {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #00214a;
 }
 .advance {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(../assets/images/advence.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 .advance__title {
+  font-family: Gilroy;
+  color: #00214a;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  max-width: 250px;
 }
 .advance__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #00214a;
 }
 .support {
+  width: 100%;
+  min-height: 295px;
+  background-image: url(../assets/images/modern.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding: 20px;
 }
 .support__title {
+  font-family: Gilroy;
+  color: #00214a;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  max-width: 250px;
 }
 .support__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #00214a;
 }
 .lessons {
+  width: 100%;
+  min-height: 295px;
+  background-image: url(../assets/images/lesson.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 .lessons__title {
+  font-family: Gilroy;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  max-width: 250px;
 }
 .lessons__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
 /* -sec-first */
+/* -sec-second */
+.sec-second {
+  width: 100%;
+  min-height: 1600px;
+  padding: 150px 0px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/second.png);
+}
+.sec-second .row {
+  align-items: center;
+}
+.sec-second .row:first-child {
+  margin-bottom: 150px;
+}
+.vision {
+  width: 100%;
+}
+.vision-title {
+  font-family: Gilroy;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #00214a;
+  font-size: 36px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+.vision-text {
+  color: #00214a80;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.vision-img {
+}
+.mission {
+}
+.mission-title {
+  font-family: Gilroy;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #00214a;
+  font-size: 36px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+.mission-text {
+  color: #00214a80;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+/* -sec-second */
+
 /* main */
