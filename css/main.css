@@ -1,0 +1,251 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.container-first {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1260px;
+  padding: 0px 30px;
+}
+/* ----header----- */
+.header {
+  background-color: #f6f6f6;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0px;
+}
+.nav__logo {
+}
+.logo {
+}
+.item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item__list {
+}
+.item__link {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #b0b0b0;
+}
+.btn-grp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn-flag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 24px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-family: Gilroy;
+  color: #00214a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.btn-phone {
+  background-color: #ff1100;
+  padding: 16px 24px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+/* ----header----- */
+.hero {
+  width: 100%;
+  min-height: 750px;
+  background-image: url(../assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  padding: 50px;
+}
+.hero__title {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.hero__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #ffffff80;
+  margin-bottom: 50px;
+}
+
+.hero__btn {
+  width: 272px;
+  height: 74px;
+  border-radius: 8px;
+  font-family: Gilroy;
+  font-weight: 400;
+  border: 0;
+  font-size: 20px;
+  background-color: #ff1100;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 215px;
+}
+.hero-static {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.stac-1 {
+}
+.stac__title {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.stac__text {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.stac-2 {
+}
+.stac-3 {
+}
+.stac-4 {
+}
+.line {
+  width: 1px;
+  height: 60px;
+  background-color: #ffffff26;
+}
+/* main */
+/* -sec-first */
+.sec-first {
+  background-color: #f6f6f6;
+  border: 0;
+
+  padding: 150px 0px;
+}
+.sec-first__title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00214a;
+}
+.inter {
+  width: 100%;
+  background-image: url(../assets/images/intern.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  min-height: 295px;
+  padding: 30px;
+}
+
+.inter__title {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.inter__text {
+}
+.indiv {
+}
+.indiv__title {
+}
+.indiv__text {
+}
+.modern {
+}
+.modern__title {
+}
+.modern__text {
+}
+.col-3 {
+}
+.advance {
+}
+.advance__title {
+}
+.advance__text {
+}
+.support {
+}
+.support__title {
+}
+.support__text {
+}
+.lessons {
+}
+.lessons__title {
+}
+.lessons__text {
+}
+/* -sec-first */
+/* main */
